@@ -16,6 +16,9 @@
 #define TFT_RST 9
 #define TFT_DC 8
 
+// TFT_SCL 13
+// TFT_SDA 11
+
 #define ENCODER_CLK 2
 #define ENCODER_DT 3
 #define ENCODER_BUTTON A2
