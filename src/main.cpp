@@ -156,9 +156,9 @@ void displayLogic()
 
     if (currentTemperatureCelcius != lastTemperatureCelcius)
     {
-        tftLcd.fillRect(90, 28, 30, 10, BROWN_COLOR);
+        tftLcd.fillRect(90, 28, 50, 10, BROWN_COLOR);
         tftLcd.fillRect(90, 80, 30, 10, BROWN_COLOR);
-        tftLcd.fillRect(90, 95, 30, 10, BROWN_COLOR);
+        tftLcd.fillRect(90, 95, 40, 10, BROWN_COLOR);
     }
 
     lastEncoderPosition = currentEncoderPosition;
